@@ -9,7 +9,7 @@ setuptools.setup(
     version=VER,
     author="Zae Moore",
     author_email="emoore06@syr.edu",
-    description="A package creating event displays for the Single Cube at SU",
+    description="A package for creating event displays from Single Cube data at SU",
     url="https://github.com/ZaeMoore/singlecube-event-display",
     packages=setuptools.find_packages(where="src"), #"where" is needed; "include=['LarpixParser']" is not necessary 
     package_dir={"":"src"},
