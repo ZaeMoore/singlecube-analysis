@@ -5,15 +5,15 @@ import setuptools
 VER = "0.0.1"
 
 setuptools.setup(
-    name="EventDisplay",
+    name="SCAnalysis",
     version=VER,
     author="Zae Moore",
     author_email="emoore06@syr.edu",
-    description="A package for creating event displays from Single Cube data at SU",
-    url="https://github.com/ZaeMoore/singlecube-event-display",
+    description="A package for analyzing data from the Single Cube at SU",
+    url="https://github.com/ZaeMoore/singlecube-analysis",
     packages=setuptools.find_packages(where="src"), #"where" is needed; "include=['LarpixParser']" is not necessary 
     package_dir={"":"src"},
-    package_data={"EventDisplay": ["config_repo/*.yaml",
+    package_data={"SCAnalysis": ["config_repo/*.yaml",
                                    "config_repo/dict_repo/*.pkl"]},
     install_requires=["numpy", "h5py", "fire"],
     classifiers=[
